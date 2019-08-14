@@ -151,7 +151,7 @@ public class CarDiagnosticEngine {
 		String model = car.getModel();
 
 		if(null != car){
-			if( null != make || null != model || null != year){
+			if( null != make && null != model && null != year){
 				isCarValid = true;
 			}else if(null == make){
 				isCarValid = false;
