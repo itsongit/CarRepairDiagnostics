@@ -3,29 +3,25 @@
 	<year>2006</year>
 	<make>Ford</make>
 	<model>Explorer</model>
-
 	<parts>
 		<inventoryId>engine</inventoryId>
 		<type>ENGINE</type>
-		<condition>NEW</condition>
+		<condition>USED</condition>
 	</parts>
-
 	<parts>
 		<inventoryId>electrical</inventoryId>
 		<type>ELECTRICAL</type>
+		<condition>NO_POWER</condition>
+	</parts>
+	<parts>
+		<inventoryId>tire</inventoryId>
+		<type>TIRE</type>
 		<condition>NEW</condition>
 	</parts>
-
 	<parts>
 		<inventoryId>tire</inventoryId>
 		<type>TIRE</type>
 		<condition>FLAT</condition>
-	</parts>
-
-	<parts>
-		<inventoryId>tire</inventoryId>
-		<type>TIRE</type>
-		<condition>WORN</condition>
 	</parts>
 	<parts>
 		<inventoryId>tire</inventoryId>
@@ -45,6 +41,6 @@
 	<parts>
 		<inventoryId>oil_filter</inventoryId>
 		<type>OIL_FILTER</type>
-		<condition>NEW</condition>
+		<condition>CLOGGED</condition>
 	</parts>
 </car>
